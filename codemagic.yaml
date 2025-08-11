@@ -3,7 +3,6 @@ workflows:
     name: Android Build (Capacitor)
     environment:
       node: latest
-      android: latest
     scripts:
       - name: Install dependencies
         script: npm install
@@ -17,3 +16,4 @@ workflows:
           ./gradlew assembleDebug
     artifacts:
       - android/app/build/outputs/**/*.apk
+
