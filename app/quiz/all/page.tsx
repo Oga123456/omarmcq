@@ -1,0 +1,1 @@
+<new all/page.tsx content from assistant above>
